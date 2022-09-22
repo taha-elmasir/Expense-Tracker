@@ -1,0 +1,16 @@
+.expense-filter {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.expense-filter select {
+  padding: 1rem;
+}
+
+.reset-btn {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+}

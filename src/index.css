@@ -18,6 +18,28 @@ body {
   background: #f1f1f1;
 }
 
+/* General */
+
+select,
+button {
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  border: none;
+  padding: 1.2rem 2.4rem;
+  background: #1864ab;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.7rem;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #1971c2;
+}
+
 /* Heading */
 
 h1 {
@@ -25,4 +47,32 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   margin: 3.2rem 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1600px) {
+  .new-expense .control {
+    display: flex;
+    justify-content: center;
+    grid-column: 1/-1;
+    gap: 1.4rem;
+  }
+}
+
+@media (max-width: 844px) {
+  .expenses,
+  .new-expense,
+  .chart,
+  .expense-filter {
+    width: 95% !important;
+    margin: 2.4rem !important;
+  }
+  .new-expense {
+    display: block !important;
+  }
+  input,
+  .new-expense select {
+    margin-bottom: 3.2rem;
+  }
 }

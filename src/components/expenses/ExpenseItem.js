@@ -9,7 +9,7 @@ const ExpenseItem = (props) => {
 
   return (
     <tr>
-      <td>{props.name}</td>
+      <td>{props.title}</td>
       <td>${props.amount}</td>
       <td>{props.category}</td>
       <td>{date}</td>

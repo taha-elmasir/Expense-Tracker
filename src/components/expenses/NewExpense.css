@@ -33,20 +33,13 @@ select:focus {
   background: #e7f5ff;
 }
 
-button[type='submit'] {
-  display: block;
-  cursor: pointer;
-  border: none;
-  grid-column: 1/-1;
-  margin: 0 auto;
-  padding: 1.6rem 3.2rem;
-  background: #1864ab;
-  color: #fff;
-  font-family: inherit;
-  font-size: 1.7rem;
-  border-radius: 4px;
+.control {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 2/3;
 }
 
-button[type='submit']:hover {
-  background: #1971c2;
+.new-expense__btn {
+  margin: 4.8rem auto;
+  font-size: 1.8rem;
 }
