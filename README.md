@@ -1,3 +1,7 @@
+## Screenshots
+![Expense Tracker](https://user-images.githubusercontent.com/99720427/191842262-64fbe27d-3cc0-4a0c-ae72-9b3adcf90a5a.PNG)
+![Expense Tracker 2](https://user-images.githubusercontent.com/99720427/191842460-3d87eaea-858c-4ff8-a993-5be44d36dddb.PNG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
